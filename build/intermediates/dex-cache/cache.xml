@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\pre-dexed\debug\classes-3ad2743bec0fa16ba561be02b880974132fababc.jar" />
+    </item>
+    <item
+        jar="C:\Development\AndroidSet\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-d13efed891807b094392dadb7e9b54de685e6b77.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\pre-dexed\debug\classes-92f2395c069b1e7ad10b324d04815756e19899ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-e4d30f680737007b1d6c489b33a86e5ab5482248.jar" />
+    </item>
+    <item
+        jar="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\haslina\AndroidStudioProjects\HelloSQLite\app\build\intermediates\pre-dexed\debug\classes-e685cf03907ffdfdb4284437a6b00f3a6e9c9781.jar" />
+    </item>
+
+</items>

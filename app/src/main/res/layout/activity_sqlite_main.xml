@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@android:color/holo_blue_bright"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SQLiteMainActivity"
+    tools:ignore="NewApi">
+
+    <TextView
+        android:id="@+id/textViewDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Books Database"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextBName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Book Name" />
+
+        <EditText
+            android:id="@+id/editTextBAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Author Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonADD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonFind"
+            android:layout_alignBottom="@+id/buttonFind"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:layout_alignParentStart="true"
+            android:onClick="addBook"
+            android:text="Add Book" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextBAuthor"
+            android:layout_toEndOf="@+id/buttonFind"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/buttonFind"
+            android:onClick="deleteBook"
+            android:text="Delete Book" />
+
+        <Button
+            android:id="@+id/buttonFind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonDelete"
+            android:layout_alignBottom="@+id/buttonDelete"
+            android:layout_toEndOf="@+id/buttonADD"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/buttonADD"
+            android:onClick="findBook"
+            android:text="Find Book" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvShowRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDelete"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="No Records Yet" />
+
+    <ListView
+        android:id="@+id/lvShowRecords"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
